@@ -16,6 +16,11 @@ public class TestLinq : MonoBehaviour
         foreach (var c in SR) {
             Debug.Log(c.Name + c.Hp);
         }
+
+        var list = new List<int> { 1, 84, 95, 95, 40, 6 };
+        foreach (var x in list.Distinct()) {
+            Debug.Log(x);
+        }
     }
 
     // Update is called once per frame
