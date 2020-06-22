@@ -1,0 +1,2 @@
+# linqTest
+Linqの説明
