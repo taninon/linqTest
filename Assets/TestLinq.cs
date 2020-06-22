@@ -14,13 +14,8 @@ public class TestLinq : MonoBehaviour
             .OrderBy(r => r.Hp);
 
         foreach (var c in SR) {
-            Debug.Log(c.Name);
+            Debug.Log(c.Name + c.Hp);
         }
-
-        var list = new List<int> { 1, 84, 95, 95, 40, 6 };
-
-            Debug.Log(list.All(x => x > 0));
-        Debug.Log(list.All(x => x > 10));
     }
 
     // Update is called once per frame
